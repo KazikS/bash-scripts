@@ -1,0 +1,28 @@
+# Секретные данные и конфигурации с паролями
+*.env
+*.secret
+secrets.sh
+config.local.sh
+
+# Логи и временные файлы
+*.log
+logs/
+*.tmp
+*.temp
+*~
+
+# Резервные копии
+*.bak
+*.swp
+*.swo
+
+# Системные файлы (macOS и Windows)
+.DS_Store
+.Trashes
+Thumbs.ini
+Desktop.ini
+
+# Среды разработки и IDE
+.vscode/
+.idea/
+*.swp
